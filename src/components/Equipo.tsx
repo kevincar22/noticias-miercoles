@@ -9,7 +9,7 @@ const equipo = [
   {
     nombre: 'Farú',
     rol: 'Relaciones Comerciales, Productor y Agente Legal',
-    img: '', // Sin imagen por ahora
+    img: '/faru_perfil.png',
   },
   {
     nombre: 'Romi',
