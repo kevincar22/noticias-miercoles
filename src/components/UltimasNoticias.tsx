@@ -5,9 +5,9 @@ import ClientOnly from './ClientOnly';
 const UltimasNoticias: React.FC = () => {
   // Aquí puedes poner las URLs de tus Reels
   const reelUrls = [
-    'https://www.instagram.com/p/DPCuVqtCUvh', // Reel de prueba de la cuenta oficial de Instagram
-    'https://www.instagram.com/p/DPCuVqtCUvh',
-    'https://www.instagram.com/p/DPCuVqtCUvh',
+    'https://www.instagram.com/p/DPAPSTZEVC7/', // Reel de prueba de la cuenta oficial de Instagram
+    'https://www.instagram.com/p/DPAPSTZEVC7/',
+    'https://www.instagram.com/p/DPAPSTZEVC7/',
   ];
 
   return (
