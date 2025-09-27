@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import UltimasNoticias from './components/UltimasNoticias';
@@ -12,6 +12,17 @@ import Footer from './components/Footer';
 import './App.css';
 
 const App: React.FC = () => {
+
+  useEffect(() => {
+    const scriptId = 'taggbox-embed-script';
+    if (document.getElementById(scriptId)) return;
+
+    const script = document.createElement('script');
+    script.id = scriptId;
+    script.src = 'https://widget.taggbox.com/embed.min.js';
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
 
   return (
     <div className="App">
